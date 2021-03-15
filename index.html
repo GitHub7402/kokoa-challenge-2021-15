@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login - PC KakaoTalk Clone</title>
+    <link
+      rel="shortcut icon"
+      href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse3.mm.bing.net%2Fth%3Fid%3DOIP.dGx1t7IVxYQFxRyGxb-ksgHaGl%26pid%3DApi&f=1"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body class="login-body">
+    <header class="control-bar">
+      <abbr title="설정"><i class="fas fa-cog"></i></abbr>
+      <div class="divider"></div>
+      <abbr title="최소화"><div class="under-bar">_</div></abbr>
+      <abbr title="닫기"><i class="fas fa-times"></i></abbr>
+    </header>
+
+    <div class="kakaotalk-logo">
+      <img src="screenshots/kakaotalk-logo.PNG" />
+    </div>
+
+    <form class="login-form" action="friends.html">
+      <input
+        class="login-input"
+        type="text"
+        placeholder="카카오계정 (이메일 또는 전화번호)"
+        required
+      />
+      <i class="fas fa-caret-down"></i>
+      <input
+        class="login-input"
+        type="password"
+        placeholder="비밀번호"
+        minlength="4"
+        required
+      />
+      <input class="login-btn" type="submit" value="로그인" />
+      <div class="auto-login">
+        <input id="auto-login__text" type="checkbox" />
+        <label for="auto-login__text">자동로그인</label>
+        <i class="fas fa-question-circle"></i>
+      </div>
+    </form>
+
+    <div class="login-link">
+      <a href="#">카카오계정 찾기</a>
+      <div class="divider"></div>
+      <a href="#">비밀번호 재설정</a>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

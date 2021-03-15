@@ -1,0 +1,29 @@
+.nav-bar-margin {
+    margin-left: 65px; 
+}
+
+.screen-header {
+    background-color: wheat;
+}
+
+.screen-control-bar {
+    background-color: burlywood;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px 10px 0 0;
+}
+
+.screen-control-bar i {
+    margin-left: 10px;
+}
+
+.screen-control-bar .hyphen {
+    font-weight: 600;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+}
+
+.screen-control-bar .fa-square {
+    font-size: 13px;
+}
